@@ -1,6 +1,6 @@
 # Neuromaps 梯度图空间相关分析
 
-本项目将 MNI152 空间的梯度统计 t 图与 78 张参考脑图谱统一到 fsLR 32k 表面，按同一套脑区模板提取 ROI 值，再计算空间相关。脚本通过空间零模型估计置换 p 值，并对有效结果进行 Benjamini–Hochberg FDR 校正。
+本项目基于Neuromaps二次开发，将 MNI152 空间的梯度统计 t 图与 78 张参考脑图谱统一到 fsLR 32k 表面，按同一套脑区模板提取 ROI 值，再计算空间相关。脚本通过空间零模型估计置换 p 值，并对有效结果进行 Benjamini–Hochberg FDR 校正。
 
 ## 环境
 
